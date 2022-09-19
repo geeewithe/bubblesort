@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class bubbleSsort {
+public class bubblesort {
 	public static void bubblesort(int [] arr, int size) {
 		for(int i = 0;i<size;i++) {
 			for(int j = 0;j<size-i-1;j++) {
@@ -8,8 +8,7 @@ public class bubbleSsort {
 					arr[j] = arr[i];
 					arr[i] = temp;
 				}
-			}
-		}
+			}		}
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
